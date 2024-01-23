@@ -1,1 +1,26 @@
 /* You can add global styles to this file, and also import other style files */
+
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}
+
+mat-list-item {
+  &.completed {
+    text-decoration: line-through;
+  }
+}
+
+.mat-mdc-input-element.hidden {
+  display: none !important;
+}
+
+form {
+  padding: 16px 16px 0;
+  display: flex;
+  flex-direction: column;
+}
